@@ -20,5 +20,5 @@ void loop() {
   Serial.println(angle);
 
   myServo.write(angle);
-  delay(15);
+  delay(10);
 }
